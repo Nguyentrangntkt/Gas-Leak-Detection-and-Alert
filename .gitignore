@@ -1,0 +1,49 @@
+# Thong tin bi mat - KHONG BAO GIO commit
+esp32_blynk/secrets.h
+
+# Ket qua build
+build/
+out/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.exe
+*.pdb
+
+# Bao cao va log sinh tu dong khi audit/kiem thu - tai tao duoc, khong commit.
+reports/
+*.log
+
+# Tai lieu NOI BO cua qua trinh lam, giu tren may nhung khong day len repo:
+# nhat ky sua loi va danh sach viec con lai. Repo chi mang MO TA DU AN.
+docs/CHANGELOG_V2.md
+docs/REMAINING_WORK.md
+
+# Ban bao cao goc cua do an (PDF). Day la tai lieu nguon, khong phai ma
+# nguon, va co ten day du cua nhom - khong day len repo cong khai.
+*.pdf
+*.docx
+
+# File nen - khong commit.
+*.zip
+
+# Thu muc tam / cache cua cong cu
+__pycache__/
+.zig-cache/
+zig-out/
+zig_global_cache/
+zig_local_cache/
+
+# STM32CubeIDE / Eclipse
+.metadata/
+*.launch
+.settings/org.eclipse.cdt.core.prefs
+
+# He dieu hanh
+Thumbs.db
+.DS_Store
